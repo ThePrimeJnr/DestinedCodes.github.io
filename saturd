@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git config user.name "Destinysaturd"
+git config user.email "destinedcodes@gmail.com"
+read -p "Enter commit message: " message
+git add .
+git commit -m "$message"
+git push
