@@ -1,8 +1,0 @@
-#!/bin/bash
-
-git config user.name "Destiny Saturday"
-git config user.email "yiradesat@gmail.com"
-read -p "Enter commit message: " message
-git add .
-git commit -m "$message"
-git push
